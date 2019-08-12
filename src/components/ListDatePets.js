@@ -28,7 +28,7 @@ const ListDatePets = ({ dates, deleteDatePet }) => {
      );
 }
 
-ListDatePets.protoType = {
+ListDatePets.protoTypes = {
     dates: PropTypes.array,
     deleteDatePet: PropTypes.func,
 }

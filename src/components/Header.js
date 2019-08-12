@@ -9,7 +9,7 @@ const Header = ({titulo}) => (
     </header>
 );
 
-Header.protoType = {
+Header.protoTypes = {
     titulo : PropTypes.string.isRequired
 }
  

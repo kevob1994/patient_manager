@@ -126,7 +126,7 @@ class NewDatePet extends Component {
     }
 }
 
-NewDatePet.protoType = {
+NewDatePet.protoTypes = {
     createNewDatePet: PropTypes.func
 }
  

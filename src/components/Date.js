@@ -23,7 +23,7 @@ const Date = ({ date, deleteDatePet, idDate }) => {
      );
 }
 
-Date.protoType = {
+Date.protoTypes = {
     idDate: PropTypes.number,
     date: PropTypes.object,
     deleteDatePet: PropTypes.func,
